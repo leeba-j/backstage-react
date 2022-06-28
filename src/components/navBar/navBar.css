@@ -1,0 +1,38 @@
+nav {
+  width: 100%;
+  height: 8vh;
+  background-color: #6494ed84;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .navbar-content {
+  display: flex;
+  width: 60%;
+  justify-content: flex-end;
+}
+
+nav .navbar-content ul {
+  display: flex;
+  flex-direction: row;
+}
+
+nav .navbar-content ul li {
+  margin: 0 1%;
+  background-color: #6494ed38;
+  list-style: none;
+  padding: 2%;
+  width: 8vw;
+}
+
+nav h3 {
+  text-transform: uppercase;
+  font-size: x-large;
+  margin: 0 2%;
+  text-shadow: 3px 1px #808080b7;
+}
+
+nav .selected{
+    background-color: #6494ed80 !important;
+}
