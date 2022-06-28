@@ -18,7 +18,7 @@ const NavBar = () => {
         <h3>NavBar</h3>
         <div className="navbar-content">
           <ul>
-            <li className="item-1" onClick={(event) => changeColor(event)}>
+            <li className="item-1 selected" onClick={(event) => changeColor(event)}>
               Item 1
             </li>
             <li className="item-2" onClick={(event) => changeColor(event)}>
